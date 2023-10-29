@@ -1,0 +1,12 @@
+name: main
+title: main
+username: velibetrie
+account: velibetrie
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10348323
+bundleId: 7866833
+url: https://velibetrie.shinyapps.io/main/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

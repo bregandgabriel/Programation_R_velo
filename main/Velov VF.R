@@ -1,56 +1,17 @@
 # Charger les bibliothèques nécessaires
-if(!require(shiny)){
-  install.packages("shiny")
-}
 library(shiny)
-
-if(!require(DT)){
-  install.packages("DT")
-}
 library(DT)
-
-if(!require(httr)){
-  install.packages("httr")
-}
 library(httr)
-
-if(!require(jsonlite)){
-  install.packages("jsonlite")
-}
 library(jsonlite)
-
-if(!require(shinydashboard)){
-  install.packages("shinydashboard")
-}
 library(shinydashboard)
-
-if(!require(plotly)){
-  install.packages("plotly")
-}
 library(plotly)
-
-if(!require(leaflet)){
-  install.packages("leaflet")
-}
 library(leaflet)
-
-if(!require(geosphere)){
-  install.packages("geosphere")
-}
 library(geosphere)
-
-if(!require(dplyr)){
-  install.packages("dplyr")
-}
 library(dplyr)
-
-if(!require(somepackage)){
-  install.packages("somepackage")
-}
 library(tidygeocoder)
 
 # Charger les données à partir du fichier CSV
-file_path <- "L:\\BUT\\SD\\Promo 2022\\rpicard\\SD2\\data_postcode.csv" # Modifier avec vos fichiers loco
+file_path <- "data_postcode.csv"
 data_csv <- read.csv(file_path, stringsAsFactors = FALSE)
 
 # Charger les données à partir de l'API JCDecaux

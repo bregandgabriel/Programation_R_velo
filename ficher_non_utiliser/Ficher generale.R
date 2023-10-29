@@ -16,7 +16,16 @@ for (titre in name) {print(raw_data_list[[titre]])}
 
 library(dplyr, warn.conflicts = FALSE)
 library(tidygeocoder)
-
+library(shiny)
+library(DT)
+library(httr)
+library(jsonlite)
+library(shinydashboard)
+library(plotly)
+library(leaflet)
+library(geosphere)
+library(dplyr)
+library(tidygeocoder)
 df = data.frame()
 df = do.call(raw_data_list, data)
 
